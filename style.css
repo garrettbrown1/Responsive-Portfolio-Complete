@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 
+/*Body Text*/
 body {
+    background: url("Natgeo.jpeg");
     font-size: 18px;
     line-height: 34px;
-    background: lightgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #808000;
+    color: #464614;
 }
 
 /*general*/
@@ -45,8 +46,9 @@ h2, h3 {
     font-size: 22px;
 }
 
-.wordPress {
-    background-color: black;
+#wordPress {
+   width: 50px;
+   height: 50px;
 }
 
 /*header*/
@@ -62,28 +64,36 @@ h2, h3 {
     border-bottom: 2px solid white;
 }
 
+/*"Garrett"*/
 #logo {
     float: left;
     width: 250px;
     height: 90px;
-    background: olive;
-    font-family: 'Times New Roman', Times, serif;
+    background-image: url("Roses.jpg");
+    font-family: 'Nothing You Could Do', cursive;
     text-align: center;
     line-height: 90px;
-    color: white;
+    color:white;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 50px;
     text-decoration: none;
 }
+
+#selfie{
+    border: 2px black;
+}
+
 
 nav {
     float: right;
     margin-top: 25px;
+    border: 1px solid black;
 }
 
 nav a {
     display: inline-block;
     padding-left: 15px;
+    padding-right: 15px;
     margin-left: 15px;
     line-height: 18px;
     color:black;
@@ -126,7 +136,7 @@ nav a:first-child {
     width: 100%;
     max-width: 270px;
     float: right;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 
@@ -151,12 +161,11 @@ h3, .sidebar, h2 {
 /* footer */
 
 footer {
-    background: #666;
-    color: #fff;
+    background: rgb(165, 165, 165);
     padding: 30px 0;
     clear: both;
-    border-top: 8px solid #4aaaa5;
-    color: #ccc;
+    border-top: 8px solid black;
+    color: rgb(255, 255, 255);
     font-size: 12px;
     text-align: center;
     height: 50px;
@@ -168,6 +177,12 @@ h3, h2 {
     line-height: 22px;
     border-bottom: 2px solid white;
 
+}
+
+.quote {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    text-align: center;
 }
 
 /*portfolio*/
@@ -210,6 +225,7 @@ h3, h2 {
     margin-top: 10px;
     float: left;
     margin-right: 25px;
+    border: 1px black;
 }
 
 /*contact*/
